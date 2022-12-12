@@ -1,0 +1,60 @@
+<!-- Assignment 1 and 2 -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Doc</title>
+    </head>
+    <body>
+        <div>
+            <form action="test.py" method="post">
+                <div>
+                    <input type="hidden" name="id" value="505">
+                </div>
+                <div>
+                    <label>Username</label>
+                    <br>
+                    <input type="text" required placeholder="ex: John Cena" name="User">
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <label>Password</label>
+                    <br>
+                    <input type="Password" required placeholder="Write a complex password" name="Pass" minlength ="8" maxlength="16">
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <label>Email</label>
+                    <br>
+                    <input type="email" required placeholder="ex: johncena@gmail.com" name="Mail">
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <label>Phone Number</label>
+                    <br>
+                    <input type="number" required placeholder="ex: +201030045892" name="Phone">
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <label>Subject</label>
+                    <br>
+                    <input type="text" placeholder="ex: Global Warming" name="Subject">
+                </div>
+                <br>
+                <div>
+                    <input type="reset" value="Empty Form"> <input type="submit" value="Send Data">
+                </div>
+                <hr>
+                <div>
+                    <label for="range">Select Your avg Budget</label>
+                    <input id="range" type="range" name="Range" min="100" max="500" step="50" value="400">
+                </div>
+                <br>
+                <hr>
+            </form>
+        </div>  
+    </body>
+</html>
